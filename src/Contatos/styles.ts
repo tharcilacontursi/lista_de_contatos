@@ -10,7 +10,7 @@ export const ContainerContatos = styled.div`
 export const ContainerContatoIndividual = styled.div`
 margin: 0 auto;
 padding: 20px;
-max-width: 1300px;
+max-width: 900px;
 background-color:#2d3436;
 border-radius: 8px;
 `
@@ -18,7 +18,8 @@ border-radius: 8px;
 export const Title = styled.h3`
 font-size: 30px;
 color: #2d3436 ;
-margin: 20px 8px;
+text-align: center;
+padding-top: 30px;
 `
 
 export const Text = styled.h5`

@@ -44,7 +44,7 @@ export const ContatosList = () => {
 
   return (
     <ContainerContatos>
-      <Title>Contatos:</Title>
+      <Title>Lista de contatos</Title>
       {contatos.map((contato, index) => (
         <ContainerContatoIndividual key={index}>
           {estaEditando === index ? (
